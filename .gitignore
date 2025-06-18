@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But not these
+!pdfs/
+!vectorstore/
+!frontend.py
+!rag_pipeline.py
+!vector_database.py
+
+# Also ignore hidden and temp files
+!.gitignore
+.env
+.venv/
+__pycache__/
+*.pyc
+*.log
